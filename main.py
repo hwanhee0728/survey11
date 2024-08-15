@@ -16,7 +16,7 @@ def save_data(new_data):
         updated_data = new_data
 
     updated_data.to_excel("survey_new3.xlsx", index=False)
-    st.success("설문 응답이 저장되었습니다.")
+    st.success("설문 응답이 저장되었습니다. 참여 감사드립니다!!!")
 
 # 엑셀 파일 다운로드를 위한 함수
 def download_excel():
@@ -46,7 +46,7 @@ def app():
         st.write("")
         improvement_feedback = st.text_area(":three: 어떤 점을 개선하면 좋을까요?")
         st.write("")
-        st.write(":smile::smile::smile:아래 '저장하기' 클릭해 주세요! 감사합니다!!!")
+        st.write(":smile::smile::smile:아래 '저장하기' 클릭해 주세요!")
         submit_button = st.form_submit_button(label='저장하기')
 
         # 제출 버튼이 눌렸을 때의 처리

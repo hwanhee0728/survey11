@@ -36,7 +36,7 @@ def app():
     image = Image.open('survey01.png')
     image = image.resize((130, 130))
     st.image(image)
-    st.write(":parachute: 느낀점을 솔직히 써주세요!:yum:")
+    st.write(":watermelon: 느낀점을 솔직히 써주세요!:yum:")
     
     # 사용자 입력 양식
     with st.form(key='survey_form'):

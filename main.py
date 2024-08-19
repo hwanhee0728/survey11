@@ -46,7 +46,7 @@ def app():
         st.write("")
         improvement_feedback = st.text_area(":left_speech_bubble: 어떤 점을 개선하면 좋을까요?")
         st.write("")
-        st.write(":smile::smile::smile:아래 '저장하기' 클릭!")
+        st.write("아래 '저장하기'를 클릭해 주세요!")
         submit_button = st.form_submit_button(label='저장하기')
 
         # 제출 버튼이 눌렸을 때의 처리

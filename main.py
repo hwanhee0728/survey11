@@ -40,11 +40,11 @@ def app():
     
     # 사용자 입력 양식
     with st.form(key='survey_form'):
-        satisfaction = st.slider(":one: 답변만족도 점수는? (10만족, 5보통)", 0, 10, 7)
+        satisfaction = st.slider(":left_speech_bubble: 답변만족도 점수는? (10만족, 5보통)", 0, 10, 7)
         st.write("")
-        positive_feedback = st.text_area(":two: 어떤 점이 마음에 들었죠?")
+        positive_feedback = st.text_area(":left_speech_bubble: 어떤 점이 마음에 들었죠?")
         st.write("")
-        improvement_feedback = st.text_area(":three: 어떤 점을 개선하면 좋을까요?")
+        improvement_feedback = st.text_area(":left_speech_bubble: 어떤 점을 개선하면 좋을까요?")
         st.write("")
         st.write(":smile::smile::smile:아래 '저장하기' 클릭!")
         submit_button = st.form_submit_button(label='저장하기')
